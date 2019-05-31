@@ -1,0 +1,51 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    
+       <!--Calculator Starts here -->
+       <center>
+        <h1><b><font color="white" style="font-size: 40">Calculator</font></b></h1><FORM NAME="Calc">
+       <TABLE class="">
+       <TR>
+       <TD>
+       <INPUT TYPE="text"   NAME="Input"  style="width: 250px; height: 40px; font-size: 30; border-radius: 8px" disabled>
+       <br>
+       </TD>
+       </TR>
+       <TR>
+       <TD>
+       <INPUT TYPE="button" NAME="nine"   VALUE="  9  " OnClick="Calc.Input.value += '9'"  style="width: 60px; height: 60px; font-size: 40; border-radius: 8px"/>
+       <INPUT TYPE="button" NAME="eight"   VALUE="  8  " OnCLick="Calc.Input.value += '8'"  style="width: 60px; height: 60px; font-size: 40; border-radius: 8px"/>
+       <INPUT TYPE="button" NAME="seven" VALUE="  7  " OnClick="Calc.Input.value += '7'"  style="width: 60px; height: 60px; font-size: 40; border-radius: 8px"/>
+       <INPUT TYPE="button" NAME="plus"  VALUE="  +  " OnClick="Calc.Input.value += ' + '" style="width: 60px; height: 60px; font-size: 40; border-radius: 8px"/>
+       <br>
+       <INPUT TYPE="button" NAME="six"  VALUE="  6  " OnClick="Calc.Input.value += '6'" style="width: 60px; height: 60px; font-size: 40; border-radius: 8px"/>
+       <INPUT TYPE="button" NAME="five"  VALUE="  5  " OnCLick="Calc.Input.value += '5'" style="width: 60px; height: 60px; font-size: 40; border-radius: 8px"/>
+       <INPUT TYPE="button" NAME="four"   VALUE="  4  " OnClick="Calc.Input.value += '4'" style="width: 60px; height: 60px; font-size: 40; border-radius: 8px"/>
+       <INPUT TYPE="button" NAME="minus" VALUE="  -  " OnClick="Calc.Input.value += ' - '" style="width: 60px; height: 60px; font-size: 40; border-radius: 8px"/>
+       <br>
+       <INPUT TYPE="button" NAME="three" VALUE="  3  " OnClick="Calc.Input.value += '3'" style="width: 60px; height: 60px; font-size: 40; border-radius: 8px"/>
+       <INPUT TYPE="button" NAME="two" VALUE="  2  " OnCLick="Calc.Input.value += '2'" style="width: 60px; height: 60px; font-size: 40; border-radius: 8px"/>
+       <INPUT TYPE="button" NAME="one"  VALUE="  1  " OnClick="Calc.Input.value += '1'" style="width: 60px; height: 60px; font-size: 40; border-radius: 8px"/>
+       <INPUT TYPE="button" NAME="times" VALUE="  x  " OnClick="Calc.Input.value += ' * '" style="width: 60px; height: 60px; font-size: 40; border-radius: 8px"/>
+       <br>
+       <INPUT TYPE="button" NAME="clear" VALUE="  c  " OnClick="Calc.Input.value = ''" style="width: 60px; height: 60px; font-size: 40; border-radius: 8px"/>
+       <INPUT TYPE="button" NAME="zero"  VALUE="  0  " OnClick="Calc.Input.value += '0'" style="width: 60px; height: 60px; font-size: 40; border-radius: 8px"/>
+       <INPUT TYPE="button" NAME="DoIt"  VALUE="  =  " OnClick="Calc.Input.value = eval(Calc.Input.value)" style="width: 60px; height: 60px; font-size: 40; border-radius: 8px"/>
+       <INPUT TYPE="button" NAME="div"   VALUE="  /  " OnClick="Calc.Input.value += ' / '" style="width: 60px; height: 60px; font-size: 40; border-radius: 8px"/>
+       <br>
+       </TD>
+       </TR>
+       </TABLE>
+       </FORM>
+       </center>
+       <!--Calculator Ends here -->
+</body>
+</html>

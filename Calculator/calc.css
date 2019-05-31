@@ -1,0 +1,17 @@
+table{
+    border: 2px ridge black;
+    border-radius: 20px;
+    background-color: red/*rgb(85, 83, 83)*/;
+    height: 400px;
+    width: 300px;
+}
+input{
+    background-color: rgb(224, 220, 220)/*rgb(172, 136, 172);*/
+    border: 1px solid black;
+    color: black;
+    font-size: 32x;
+    font-family: verdana;
+}
+td{
+    padding-left: 18px;
+}
